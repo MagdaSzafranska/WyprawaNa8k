@@ -1,0 +1,13 @@
+E:\PROGRAMMING\C#\PROGRAMS\WyprawaNa8k\bin\Debug\netcoreapp3.1\WyprawaNa8k.exe
+E:\PROGRAMMING\C#\PROGRAMS\WyprawaNa8k\bin\Debug\netcoreapp3.1\WyprawaNa8k.deps.json
+E:\PROGRAMMING\C#\PROGRAMS\WyprawaNa8k\bin\Debug\netcoreapp3.1\WyprawaNa8k.runtimeconfig.json
+E:\PROGRAMMING\C#\PROGRAMS\WyprawaNa8k\bin\Debug\netcoreapp3.1\WyprawaNa8k.runtimeconfig.dev.json
+E:\PROGRAMMING\C#\PROGRAMS\WyprawaNa8k\bin\Debug\netcoreapp3.1\WyprawaNa8k.dll
+E:\PROGRAMMING\C#\PROGRAMS\WyprawaNa8k\bin\Debug\netcoreapp3.1\WyprawaNa8k.pdb
+E:\PROGRAMMING\C#\PROGRAMS\WyprawaNa8k\obj\Debug\netcoreapp3.1\WyprawaNa8k.csprojAssemblyReference.cache
+E:\PROGRAMMING\C#\PROGRAMS\WyprawaNa8k\obj\Debug\netcoreapp3.1\WyprawaNa8k.AssemblyInfoInputs.cache
+E:\PROGRAMMING\C#\PROGRAMS\WyprawaNa8k\obj\Debug\netcoreapp3.1\WyprawaNa8k.AssemblyInfo.cs
+E:\PROGRAMMING\C#\PROGRAMS\WyprawaNa8k\obj\Debug\netcoreapp3.1\WyprawaNa8k.csproj.CoreCompileInputs.cache
+E:\PROGRAMMING\C#\PROGRAMS\WyprawaNa8k\obj\Debug\netcoreapp3.1\WyprawaNa8k.dll
+E:\PROGRAMMING\C#\PROGRAMS\WyprawaNa8k\obj\Debug\netcoreapp3.1\WyprawaNa8k.pdb
+E:\PROGRAMMING\C#\PROGRAMS\WyprawaNa8k\obj\Debug\netcoreapp3.1\WyprawaNa8k.genruntimeconfig.cache
