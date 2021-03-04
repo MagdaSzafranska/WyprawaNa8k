@@ -6,9 +6,14 @@ namespace WyprawaNa8k
     {
         static void Main(string[] args)
         {
+            Lesson_4_Loops();
+
+            DividedBy7();
+
+            #region Lesson #3
             // Assignment_2();
 
-            DoubleRadius();
+            // DoubleRadius();
 
             // WorkWithIntegers();
 
@@ -18,16 +23,68 @@ namespace WyprawaNa8k
 
             // WorkWithDoubles();
 
-            // WorkWithDecimals();
+            // WorkWithDecimals(); 
+            #endregion
         }
 
+        private static void Lesson_4_Loops()
+        {
+
+            // Do while loop
+            int counter = 0;
+            do
+            {
+                Console.WriteLine($"Hello World! The counter is {counter}");
+                counter++;
+            }
+            while (counter < 10);
+
+            Console.WriteLine();
+
+            // for loop
+            for (int index = 5; index <= 100; index = index + 5)
+            {
+                Console.WriteLine($"Hello World! The index is {index}");
+            }
+        }
+
+        private static void DividedBy7()
+        {
+            // Assignment 4
+            int sum = 0;
+            for (int i = 1; i < 30; i++)
+            {
+                if (i % 7 == 0)
+                {
+                    Console.WriteLine($"{i} is divided by 7.");
+                    sum = sum + i;
+                }
+            }
+            Console.WriteLine("The sum of numbers divided by 7 from range 1-30 is " + sum);
+        }
+
+        private static void LearnIf()
+        {
+            int a = 6, b = 8, c = 4;
+            if ((a + b + c > 10) || (a == b))
+            {
+                Console.WriteLine("The result is greater than 10.");
+                Console.WriteLine("Or the first number is equal to the second");
+            }
+            else
+            {
+                Console.WriteLine("The result is not greater than 10");
+                Console.WriteLine("And the first number is not equal to the second");
+            }
+        }
+
+        #region Lesson #3
         private static void DoubleRadius()
         {
             double radius = 2.5;
             double field = Math.PI * radius * radius;
             Console.WriteLine($"Field of the circle is {field} centimetres.");
         }
-
         private static void WorkWithDecimals()
         {
             decimal min = decimal.MinValue;
@@ -42,7 +99,6 @@ namespace WyprawaNa8k
             decimal d = 3.0M;
             Console.WriteLine(c / d);
         }
-
         private static void OperationsOnTypes()
         {
             //int a = 5, b = 4, c = 2;
@@ -65,7 +121,6 @@ namespace WyprawaNa8k
             Console.WriteLine(d);
             Console.WriteLine(h);
         }
-
         private static void TestLimits()
         {
             int max = int.MaxValue;
@@ -75,7 +130,6 @@ namespace WyprawaNa8k
             int what = max + 3;
             Console.WriteLine($"An example of overflow: {what}");
         }
-
         private static void WorkWithDoubles()
         {
             double maxD = double.MaxValue;
@@ -86,7 +140,6 @@ namespace WyprawaNa8k
             double third = 1.0 / 3.0;
             Console.WriteLine("Błędy zaokrągleń: " + third);
         }
-
         static void WorkWithIntegers()
         {
             int a = 8;
@@ -98,7 +151,6 @@ namespace WyprawaNa8k
             c = a + b - 12 * 17;
             Console.WriteLine(c);
         }
-
         static void Assignment_2()
         {
             string hello = "Hej ekipa!";
@@ -128,7 +180,8 @@ namespace WyprawaNa8k
             Console.WriteLine($"Method Substring makes {name.Substring(name.IndexOf(": ") + 2)}");
             Console.WriteLine($"Method Contains makes {name.Contains("a")}");
             Console.WriteLine($"Method Replace makes {name.Replace("a", "A")}");
-        }
+        } 
+        #endregion
 
     }
 }
